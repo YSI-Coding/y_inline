@@ -70,6 +70,6 @@ Changelog:
 // Functions to access the data on the heap.
 #include "y_inline/impl"
 #if defined YSI_TESTS
-	#include "..\YSI-Core\y_testing"
+	#include "..\YSI_Core\y_testing"
 	#include "y_inline/tests"
 #endif

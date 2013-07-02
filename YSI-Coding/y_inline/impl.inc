@@ -68,11 +68,11 @@ Changelog:
 #include "..\amx\asm"
 #include "..\amx\disasm"
 #include "..\amx\frame_info"
-#include "..\YSI-Storage\y_amx"
-#include "..\YSI-Internal\y_shortfunc"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Core\y_utils"
-#include "..\YSI-Data\y_bit"
+#include "..\YSI_Storage\y_amx"
+#include "..\YSI_Internal\y_shortfunc"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Core\y_utils"
+#include "..\YSI_Data\y_bit"
 #include "y_malloc"
 
 #define INLINE_TYPE_VAR (0b00)
