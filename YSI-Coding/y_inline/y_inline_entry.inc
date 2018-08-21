@@ -75,20 +75,20 @@ Optional plugins:
 	Me - sscanf2, fixes2, Whirlpool.
 */
 
-#include "..\y_va"
-#include "..\y_cgen\y_cgen"
+#include <YSI-Coding\y_va>
+#include <YSI-Internal\y_cgen>
 
 #if !defined YSI_MAX_INLINE_STRING
 	#define YSI_MAX_INLINE_STRING YSI_MAX_STRING
 #endif
 
-#include "..\y_malloc"
+#include <YSI-Coding\y_malloc>
 
 #include "y_inline_impl2"
 #include "y_inline_extra"
 
 #if defined YSI_TESTS
-	#include "..\y_hooks"
+	#include <YSI-Coding\y_hooks>
 	#include "y_inline_tests"
 #endif
 
