@@ -6,16 +6,16 @@
 	"dependencies": [
 		"YSI-Coding/y_va",
 		"YSI-Internal/y_cgen",
-		"YSI-Coding/y_malloc",
-		"YSI-Coding/y_hooks"
+		"YSI-Coding/y_malloc"
 	],
 	"dev_dependencies": [
+		"YSI-Coding/y_hooks",
 		"YSI-Core/y_testing",
 		"sampctl/samp-stdlib"
 	],
 	"runtime": {
 		"version": "0.3.7",
-		"mode": "server",
+		"mode": "y_testing",
 		"echo": "-",
 		"rcon_password": "password",
 		"port": 7777,
